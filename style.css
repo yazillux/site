@@ -2,6 +2,19 @@ body
 {
 	background: transparent url("Map.png") no-repeat;
 	background-size: cover;
+	font-family: retro;
+	font-size: 13px;
+}
+
+p
+{
+	font-family : Arial;
+}
+
+
+@font-face {
+    font-family: retro;
+    src: url(manaspc.ttf);
 }
 
 /*******CONTENT*******/
@@ -10,11 +23,25 @@ body
 {
 	width: 900px;
 	color: white;
-	margin: 0px auto;
+	margin-left: 220px;
 	text-align: justify;
 	padding: 10px;
 }
 
+#content #text
+{
+	background-color: #1C1C1C;
+	border: 3px solid white;
+	border-radius: 5px; 
+	margin: auto;
+	padding: 10px;
+} 
+
+#content #text h1
+{
+	margin: auto;
+	border-bottom: 2px solid white;
+}
 /*******MENU*******/
 #menu ul li
 {
@@ -28,6 +55,12 @@ body
 	 margin-left: 5px;
 }
 
+
+#menu li
+{
+	display: inherit;
+}
+
 #menu ul li:hover
 {
 }
@@ -37,6 +70,16 @@ body
 {
 	text-decoration:none;
 	color:white;
+}
+
+#menu ul li a:hover::before
+{
+	content: "► ";
+}
+
+#menu li:hover ul
+{
+	left: auto;
 }
 
 #menu ul
@@ -51,29 +94,45 @@ body
 	border-radius: 5px; 
 	width: 60%;
 	margin: auto;
-	
 	margin-bottom: 20px;
 }
 
-#content p
+#menu ul li ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu ul li ul:hover
+{
+	display: block;
+}
+
+/*******MENU_LATERAL*******/
+#menul ul
 {
 	background-color: #1C1C1C;
 	border: 3px solid white;
 	border-radius: 5px; 
 	margin: auto;
 	padding: 10px;
-} 
-/*******MENU_LATERAL*******/
+}
+#menul ul li a:hover::before
+{
+	content: "► ";
+}
 #menul ul li
 {
 	list-style-type:none;
 	height: 50px;
+	width : 150px;
 }
 
 #menul ul
 {
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 104px;
 } 
 
 #menul ul li a
