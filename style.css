@@ -1,1 +1,63 @@
+body
+{
+	background: transparent url("Map.png") no-repeat;
+	background-size: cover;
+}
 
+/*******CONTENT*******/
+
+#content
+{
+	width: 900px;
+	color: white;
+	background-color: #4D2D00;
+	margin: 0px auto;
+	text-align: justify;
+	padding: 10px;
+}
+
+/*******MENU*******/
+#menu ul li
+{
+	 list-style-type:none;
+	 display: inline-block;
+	 background-color: black;
+	 border-radius: 10px;
+	 width: auto;
+	 padding: 3px;
+}
+
+#menu ul li:hover
+{
+}
+
+
+#menu ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+
+#menu ul
+{
+	text-align: center;
+}
+
+/*******MENU_LATERAL*******/
+#menul ul li
+{
+	list-style-type:none;
+	height: 50px;
+}
+
+#menul ul
+{
+	position: absolute;
+	margin-top: 100px;
+} 
+
+#menul ul li a
+{
+	text-decoration:none;
+	color:white;
+}
