@@ -19,7 +19,7 @@ p
 
 /*******CONTENT*******/
 
-#content
+#menu, #text
 {
 	width: 900px;
 	color: white;
@@ -28,7 +28,7 @@ p
 	padding: 10px;
 }
 
-#content #text
+#text
 {
 	background-color: #1C1C1C;
 	border: 3px solid white;
@@ -36,8 +36,7 @@ p
 	margin: auto;
 	padding: 10px;
 } 
-
-#content #text h1
+#text h1
 {
 	margin: auto;
 	border-bottom: 2px solid white;
@@ -92,7 +91,7 @@ p
 	background-color: #1C1C1C;
 	border: 3px solid white;
 	border-radius: 5px; 
-	width: 75%;
+	width: 33%;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -145,3 +144,5 @@ p
 }
 
 #menul ul li a{line-height : 25px;}
+
+#menul{margin-left : 10px;}
