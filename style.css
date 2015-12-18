@@ -94,7 +94,7 @@ p
 {
 	color:white;
 	border: 3px solid white;
-	text-decoration: uppercase;
+	text-transform: uppercase;
 	border-width: 0px 0px 20px;
 	border-bottom: 30px solid #1C1C1C;
 	margin-bottom: 4%;
@@ -141,7 +141,6 @@ p
 	display : block;
 	margin-left : -20px;
 	color: white;
-	padding : auto;
 	text-decoration:none;
 }
 
