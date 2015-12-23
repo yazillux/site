@@ -1,1 +1,88 @@
+body
+{
+	background-image: url(img/arr.jpg);
+}
 
+header, nav, section,footer{display:block;}
+
+section
+{
+	background: #F2F2F2 none repeat scroll 0% 0%;
+	width: 1200px;
+}
+
+header
+{
+	height: 271px;
+	width: 1200px;
+	background-color: #653410;
+}
+
+nav
+{
+	background: #FAFAFA none repeat scroll 0% 0%;
+	border: 1px solid #E1E1E1;
+	width: 1198px;
+	text-align: center;
+}
+
+footer
+{
+	height: 70px;
+	width: 1200px;
+	background-color: #653410;
+}
+
+li
+{
+	display: inline-block;
+	border-right: 1px solid #E1E1E1;
+	line-height: 42px;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-left: 1%;
+	padding-right: 1%;
+}
+
+article
+{
+	background: #FFF none repeat scroll 0% 0%;
+	border: 1px solid #E1E1E1;
+	box-shadow: 0px 1px 0px #E5E5E5;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	width: 80%;
+	margin: 2% auto;
+	border-radius: 10px;
+	text-align: center;
+}
+
+nav ul
+{
+	margin: 0px;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#tous
+{
+	box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.44);
+	width: 1200px;
+	margin: auto;
+	background-color: #F2F2F2;
+}
+#seph
+{
+	background: #FFF none repeat scroll 0% 0%;
+	height:5px;
+}
+
+#sepb
+{
+	background: black none repeat scroll 0% 0%;
+	height:5px;
+}
