@@ -16,6 +16,9 @@ header
 	height: 271px;
 	width: 1200px;
 	background-color: #653410;
+	background-image: url(img/ban.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 nav
@@ -57,12 +60,12 @@ article
 	text-align: center;
 }
 
-nav ul
+nav #menu
 {
 	margin: 0px;
 }
 
-nav ul li a
+nav #menu li a
 {
 	text-decoration: none;
 	color: black;
@@ -85,8 +88,27 @@ nav ul li a
 {
 	background: black none repeat scroll 0% 0%;
 	height:5px;
-<<<<<<< HEAD
 }
-=======
+
+#menu ul li
+{
+	display: inherit;
 }
->>>>>>> origin/master
+
+#menu ul 
+{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu li:hover ul 
+{
+    left: auto;
+	background-color: #FAFAFA;
+	margin-left: -1.1%;
+	width: 10.1%;
+	padding: 0;
+	text-align: center;
+}
