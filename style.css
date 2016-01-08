@@ -11,12 +11,18 @@ section
 	width: 1200px;
 }
 
+p
+{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
 header
 {
 	height: 271px;
 	width: 1200px;
 	background-color: #653410;
-	background-image: url(img/ban.jpg);
+	background-image: url(img/ban.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -111,5 +117,19 @@ nav #menu li a
 	margin-left: -1.1%;
 	width: 10.1%;
 	padding: 0;
+	text-align: center;
+}
+
+#imgart
+{
+	width: 250px; 
+	height: 200px; 
+	display: block; 
+	margin: auto;
+}
+
+#pagination
+{
+	padding-bottom: 5px;
 	text-align: center;
 }
